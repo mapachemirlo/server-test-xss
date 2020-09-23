@@ -1,0 +1,17 @@
+{
+    "name": "server-cross",
+    "version": "1.0.0",
+    "description": "Servers for test-cross",
+    "main": "index.js",
+    "scripts": {
+        "http": "node http_server.js",
+        "wss": "node ws_server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Claudio Herrera",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "ws": "^7.3.1"
+    }
+}
